@@ -1,4 +1,4 @@
-class Box {
+ class Box {
     private:
        int length;
        int width;
@@ -6,6 +6,9 @@ class Box {
     public:
        // write prototypes of setters for length, width and height
        // write prototypes of getters for length, width and height
- 
-       int calcVolume();
+      void setValues(int blength, int bwidth, int bheight);
+      int getlength();
+      int getheight();
+      int getwidth();
+      int calcVolume();
 };
